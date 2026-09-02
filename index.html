@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sohrab Sir | Teacher's Day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- cursor glow (desktop only) -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="logo">&lt; SOHRAB.SIR /&gt;</a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#lessons" class="nav-link">Lessons</a></li>
+      <li><a href="#message" class="nav-link">Message</a></li>
+      <li><a href="#surprise" class="nav-link">Surprise</a></li>
+    </ul>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="particles" id="particles"></div>
+
+  <div class="hero-content">
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">init.js</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="code-kw">const</span> teacher <span class="code-op">=</span> <span class="code-str">"Sohrab Sir"</span>;</p>
+        <p><span class="code-kw">const</span> subject <span class="code-op">=</span> <span class="code-str">"Computer Science"</span>;</p>
+        <p><span class="code-kw">let</span> inspiration <span class="code-op">=</span> <span class="code-num">&infin;</span>;</p>
+        <p class="loading-line">loading inspiration<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+      </div>
+    </div>
+
+    <h1 class="hero-heading">
+      <span class="line">HAPPY</span>
+      <span class="line">TEACHER'S DAY</span>
+      <span class="line accent">SOHRAB SIR</span>
+    </h1>
+
+    <p class="hero-subtitle">
+      Behind every line of code is someone<br />
+      who taught us how to think.
+    </p>
+
+    <div class="hero-date">05 <span>•</span> 09 <span>•</span> 2026</div>
+
+    <button class="cta-btn" id="enterBtn">
+      <span>ENTER THE EXPERIENCE</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <div class="scroll-hint">
+    <span></span>
+  </div>
+</header>
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <div class="section-inner">
+    <p class="section-label">01 / About</p>
+    <h2 class="section-heading">More than just<br />a computer teacher.</h2>
+
+    <div class="profile-card reveal">
+      <div class="profile-photo-wrap">
+        <img src="C:\Users\HP\Pictures\sohrab sir.jpg" alt="Sohrab Sir" class="profile-photo" id="teacherPhoto" />
+      </div>
+      <div class="profile-info">
+        <h3>Sohrab Sir</h3>
+        <p class="profile-role">Computer Science Teacher</p>
+        <p class="profile-text">
+          A great teacher doesn't simply teach a subject.
+          They teach us how to approach problems,
+          how to keep trying and how to turn
+          curiosity into knowledge.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LESSONS ================= -->
+<section class="section lessons" id="lessons">
+  <div class="section-inner">
+    <p class="section-label">02 / Lessons</p>
+    <h2 class="section-heading">Lessons that<br />stay with us.</h2>
+
+    <div class="lessons-grid">
+
+      <div class="lesson-card reveal">
+        <span class="lesson-number">01</span>
+        <div class="lesson-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M13.5 6l-3 12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Coding</h3>
+        <p>Turning ideas into something that actually works.</p>
+      </div>
+
+      <div class="lesson-card reveal">
+        <span class="lesson-number">02</span>
+        <div class="lesson-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Problem Solving</h3>
+        <p>Finding solutions instead of giving up on difficult problems.</p>
+      </div>
+
+      <div class="lesson-card reveal">
+        <span class="lesson-number">03</span>
+        <div class="lesson-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="1.5"/><path d="M3 9h18M8 20h8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Web Development</h3>
+        <p>Building something from a blank screen.</p>
+      </div>
+
+      <div class="lesson-card reveal">
+        <span class="lesson-number">04</span>
+        <div class="lesson-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke-linecap="round"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <h3>Creativity</h3>
+        <p>Learning that technology can be creative too.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= MESSAGE ================= -->
+<section class="section message" id="message">
+  <div class="section-inner">
+    <p class="section-label">03 / Message</p>
+    <h2 class="section-heading">A message from<br />your student.</h2>
+
+    <div class="editor-window reveal" id="editorWindow">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">appreciation.js</span>
+      </div>
+      <div class="editor-body">
+        <div class="line-numbers" id="lineNumbers"></div>
+        <pre class="editor-text" id="editorText"></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SURPRISE ================= -->
+<section class="section surprise" id="surprise">
+  <div class="section-inner center">
+    <p class="section-label">04 / Surprise</p>
+    <h2 class="section-heading">Ready for<br />the surprise?</h2>
+    <p class="surprise-text">You've reached the final level.</p>
+
+    <button class="cta-btn unlock-btn" id="unlockBtn">
+      <span>UNLOCK SURPRISE</span>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v1" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <!-- hidden easter egg trigger -->
+  <div class="egg-trigger" id="eggTrigger" title="curious?"></div>
+</section>
+
+<footer class="footer">
+  <p>Crafted with care by Class 10-B &mdash; Teacher's Day 2026</p>
+</footer>
+
+<!-- ================= MUSIC PLAYER ================= -->
+<div class="music-player" id="musicPlayer">
+  <div class="disc-wrap">
+    <div class="disc" id="disc"></div>
+  </div>
+  <div class="music-info">
+    <p class="music-title">Teacher's Day</p>
+    <p class="music-sub">For Sohrab Sir &hearts;</p>
+  </div>
+  <button class="play-pause" id="playPause" aria-label="Play or pause music">
+    <svg id="iconPlay" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    <svg id="iconPause" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+  </button>
+</div>
+<audio id="bgAudio" src="C:\Users\HP\Music\32.mp3" loop preload="auto"></audio>
+
+<!-- ================= EASTER EGG OVERLAY ================= -->
+<div class="egg-overlay" id="eggOverlay">
+  <div class="egg-box">
+    <p class="egg-line1">404: Best Computer Teacher Not Found...</p>
+    <p class="egg-line2" id="eggSearching">Searching<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+    <div class="egg-result" id="eggResult">
+      <p class="egg-found-label">Teacher Found:</p>
+      <p class="egg-found-name">SOHRAB SIR &hearts;</p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= SURPRISE OVERLAY ================= -->
+<div class="surprise-overlay" id="surpriseOverlay">
+  <div class="confetti-layer" id="confettiLayer"></div>
+  <button class="close-btn" id="closeSurprise" aria-label="Close">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+  </button>
+  <div class="surprise-content">
+    <div class="big-heart">&hearts;</div>
+    <p class="system-msg">SYSTEM MESSAGE</p>
+    <h2 class="thank-you">THANK YOU,<br />SOHRAB SIR. SIR AB THAPPAD MAT MAARNA BASS</h2>
+    <p class="happy-td">Happy Teacher's Day! 🎉</p>
+    <p class="made-by">Made with &hearts; by Class 10-B</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
